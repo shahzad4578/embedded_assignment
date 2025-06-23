@@ -20,7 +20,7 @@ int main(){
         data.ivar = a;
         char b = rand() % 6; // Generate a random value for cvar (0-5)
         data.cvar = b;
-        float c = (rand()) / 10.0; // Generate a random float value (0.0-99.9)
+        float c = (rand()) / 10.0; 
         data.fvar = c;
         printf("Iteration %d:\n", n + 1);
         if(data.ivar != a){
