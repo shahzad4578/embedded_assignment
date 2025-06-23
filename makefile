@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -pedantic -std=c99
 
-SRCS = nfile.c
+SRCS = unsign_vs_sign.c
 OBJS = $(SRCS:.c=.o)
-TARGET = nfile
+TARGET = unsign_vs_sign
 
 .PHONY: all clean
 
